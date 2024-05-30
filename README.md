@@ -42,11 +42,11 @@ python script.py
 5. The application will start scraping the provided URLs concurrently. Once scraping is completed, the application will print "Scraping completed." to the console.
 
 ## Customization
-- You can customize the list of URLs to scrape by modifying the `urls` list in the `scrape.py` file.
-- Adjust the maximum number of workers in the thread pool by modifying the `max_workers` parameter in the `scrape_urls()` function in `scrape.py`.
+- You can customize the list of URLs to scrape by modifying the `urls` list in the `script.py` file.
+- Adjust the maximum number of workers in the thread pool by modifying the `max_workers` parameter in the `scrape_urls()` function in `script.py`.
 
 ## Logging
-- Error logs are written to the `scrap.log` file in the same directory as `scrape.py`. Check this file for any errors encountered during the scraping process.
+- Error logs are written to the `scrap.log` file in the same directory as `script.py`. Check this file for any errors encountered during the scraping process.
 
 ## Error Handling
 - The application handles various types of errors gracefully and logs them for debugging purposes. If any URL fails to be scraped, the application will print a corresponding error message.
