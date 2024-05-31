@@ -27,7 +27,7 @@ pip install pymongo
 ```
 ## Setup
 1. **MongoDB**: Ensure that MongoDB is installed and running on your system. If not, download and install it from the [official MongoDB website](https://www.mongodb.com/try/download/community).
-2. **Database Configuration**: By default, the application connects to a MongoDB instance running on `localhost` at port `27017`. If your MongoDB instance is running on a different host or port, modify the connection string accordingly in the code (`scrape.py`).
+2. **Database Configuration**: By default, the application connects to a MongoDB instance running on `localhost` at port `27017`. If your MongoDB instance is running on a different host or port, modify the connection string accordingly in the code (`script.py`).
 
 ## Usage
 1. Clone or download the source code of the scraping application from the repository.
